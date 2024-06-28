@@ -6,7 +6,7 @@
   if(mysqli_query($conex, $sql)){
     echo  "Se registro con exito";
   }else{
-    echo "problemas al registrarse, intente nuevamente mas tarde"
+    echo "problemas al registrarse, intente nuevamente mas tarde";
   };
 
   
